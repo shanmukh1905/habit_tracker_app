@@ -1,0 +1,4 @@
+function prompt {
+  $custom = Split-Path -leaf -path (Get-Location)
+  "$custom> "
+}
